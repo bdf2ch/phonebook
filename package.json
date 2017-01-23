@@ -1,0 +1,25 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "Kolenergo phonebook service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bdf2ch@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.3.20",
+    "angular-animate": "^1.3.20",
+    "angular-aria": "^1.3.20",
+    "angular-cookies": "^1.3.20",
+    "angular-material": "^1.1.1",
+    "angular-route": "^1.3.20",
+    "material-design-icons": "^3.0.1",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

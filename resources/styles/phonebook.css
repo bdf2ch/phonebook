@@ -1,0 +1,57 @@
+/**********
+** FONTS
+*********/
+/*
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("/resources/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("/resources/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("/resources/fonts/Roboto-Italic.ttf");
+}
+*/
+/**********
+** HEADER
+**********/
+/*********
+** CONTENT WRAPPER
+**********/
+/*********
+** DIVISIONS
+**********/
+#app-divisions {
+  width: 400px;
+  height: 100%;
+}
+#app-divisions ._md {
+  background: white;
+}
+/*********
+** CONTACTS
+**********/
+#app-contacts #search-bar {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+}
+#app-contacts .contact-container {
+  min-height: 350px;
+}
+#app-contacts .contact {
+  background: white;
+}
+#app-contacts .contact .contact-photo {
+  min-height: 200px;
+  background: lightgrey;
+}
+#app-contacts .contact .contact-info h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
