@@ -41,6 +41,17 @@
   padding: 20px;
   background: white;
 }
+#app-contacts .division-title .md-display-1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #9E9E9E;
+}
+#app-contacts .division-title .md-divider {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
 #app-contacts .contact-container {
   min-height: 350px;
 }
@@ -54,4 +65,25 @@
 #app-contacts .contact .contact-info h2 {
   margin-bottom: 0px;
   margin-top: 0px;
+}
+#app-contacts .contact .contact-info .position {
+  color: #1565C0;
+}
+#app-contacts .contact .contact-info .phone {
+  margin-bottom: 6px;
+}
+#app-contacts .contact .contact-info .phone .phone-icon {
+  color: #81C784;
+}
+#app-contacts .contact .contact-info .mobile {
+  margin-bottom: 6px;
+}
+#app-contacts .contact .contact-info .mobile .mobile-icon {
+  color: #4FC3F7;
+}
+#app-contacts .contact .contact-info .email {
+  color: #2196F3;
+}
+#app-contacts .contact .contact-info .email .email-icon {
+  color: #9575CD;
 }

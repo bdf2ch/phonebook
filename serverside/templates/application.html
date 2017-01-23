@@ -40,7 +40,7 @@
 
         <div layout="row" flex>
 
-            <div id="app-divisions" layout="column" flex="initial" hide-xs hide-sm>
+            <div id="app-divisions" layout="column" flex="initial" hide-xs hide-sm hide-md>
                 <md-content flex>
 
                 </md-content>
@@ -60,16 +60,23 @@
 
                     </div>
 
-                    <h3 class="md-display-1" layout="row" flex layout-padding>Отдел корпоративных и технологических АСУ</h3>
+
+                    <div layout="column" layout-margin class="division-title">
+                        <h3 class="md-display-1" layout="row" flex layout-margin>Отдел корпоративных и технологических АСУ</h3>
+                        <md-divider></md-divider>
+                    </div>
+
+
                     <div layout="row" layout-wrap flex layout-padding ng-controller="TestController">
-                        <div class="contact-container" layout="column" flex-xs="100" flex-sm="50" flex-md="50" flex-gt-md="33" flex-lg="25" flex-xl="20" ng-repeat="item in items track by $index">
+
+                        <div class="contact-container" layout="column" flex-xs="100" flex-sm="50" flex-md="33" flex-gt-md="33" flex-lg="33" flex-xl="20" ng-repeat="item in items track by $index">
                             <div class="contact" layout="column" flex md-whiteframe="1">
 
                                 <div class="contact-photo" layout="row" layout-align="start start">
                                     <div layout="row" layout-align="end start" layout-padding flex>
                                         <md-button aria-label="Open demo menu" class="md-icon-button" ng-click="$mdOpenMenu($event)">
                                             <md-icon md-font-set="material-icons">more_vert</md-icon>
-                                            <md-tooltip md-direction="top">
+                                            <md-tooltip md-direction="left">
                                                 Подробнее
                                             </md-tooltip>
                                         </md-button>
@@ -79,20 +86,29 @@
                                 <div class="contact-info" layout="column" layout-margin>
                                     <div layout="column">
                                         <span class="md-headline">Иванов Иван Иванович</span>
-                                        <span class="md-subhead">инженер-программист</span>
+                                        <span class="md-subhead position">инженер-программист</span>
+                                        <br>
 
-                                        <div layout="row" layout-align="start center" flex>
-                                            <div><md-icon md-font-set="material-icons">phone</md-icon></div>
+                                        <div layout="row" layout-align="start center" flex class="phone">
+                                            <div><md-icon md-font-set="material-icons" class="phone-icon">phone</md-icon></div>
                                             <div layout="row" flex-offset="5">
                                                 <h2 class="md-title">24-60, </h2>
-                                                <h2 class="md-title">&nbsp; 22-33-44</h2>
+                                                <h2 class="md-title">&nbsp; 22-31, </h2>
+                                                <h2 class="md-title">&nbsp; 20-45</h2>
                                             </div>
                                         </div>
 
-                                        <div layout="row" layout-align="start center" flex>
-                                            <div><md-icon md-font-set="material-icons">smartphone</md-icon></div>
+                                        <div layout="row " layout-align="start center" flex class="mobile">
+                                            <div><md-icon md-font-set="material-icons" class="mobile-icon">smartphone</md-icon></div>
                                             <div layout="row" flex-offset="5">
-                                                <h2 class="md-headline">8 (921) 555-66-77</h2>
+                                                <h2 class="md-title">8 (921) 555-66-77</h2>
+                                            </div>
+                                        </div>
+
+                                        <div layout="row" layout-align="start center" flex class="email">
+                                            <div><md-icon md-font-set="material-icons" class="email-icon">email</md-icon></div>
+                                            <div layout="row" flex-offset="5" flex>
+                                                <a href="" class="md-subhead email">ivanovivan@kolenergo.ru</a>
                                             </div>
                                         </div>
                                     </div>
