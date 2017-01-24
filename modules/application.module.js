@@ -17,4 +17,8 @@ function TestController ($scope) {
     $scope.items = [
         {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ,{} ,{}
     ];
+
+
+    $scope.sourceDepartmentId = 1;
+    $scope.search = "";
 };
